@@ -43,6 +43,8 @@ img {
 
 .grid-layout {
     display: grid;
+    max-width: 900px;
+    margin: 0 auto;
     grid-template-columns: 1fr;
     gap: 20px;
 }
