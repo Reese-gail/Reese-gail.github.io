@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body> 
+    <div class="container">
+    <div class="grid-layout"> 
+
+<div class="about-flex">        
+<nav>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">Why Time Management Matters</a></li>
+<li><a href="reflection.html">Reflection</a></li>
+<li><a href="action.html">Quick Strategies </a></li>
+<li><a href="planner.html">Interactive Student Planner</a></li>
+</nav>
+</div>
+
+<h1>My Daily Planner</h1>
+
+<input type="text" id="taskInput" placeholder="Enter a task">
+<input type="time" id="timeInput">
+
+<button onclick="addTask()">Add Task</button>
+
+<h2>Today's Plan:</h2>
+<ul id="taskList"></ul>
+
+<script src="planner.js"></script>
+
+</body>
+</html>
