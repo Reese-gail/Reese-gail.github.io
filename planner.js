@@ -1,6 +1,6 @@
 function addTask() {
-    let task = document.getElementById("taskInput").vaule;
-    let time = document.getElementById("timeInput").vaule;
+    let task = document.getElementById("taskInput").value;
+    let time = document.getElementById("timeInput").value;
 
     let li = document.createElement("li");
 
@@ -8,6 +8,6 @@ function addTask() {
 
     document.getElementById("tasklist").appendChild(li);
 
-    document.getElementById("taskInput").vaule = "";
-    document.getElementById('timeInput').vaule = "";
+    document.getElementById("taskInput").value = "";
+    document.getElementById('timeInput').value = "";
 }
