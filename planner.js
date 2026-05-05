@@ -6,7 +6,7 @@ function addTask() {
 
     li.textContent = time + " - " + task;
 
-    document.getElementById("tasklist").appendChild(li);
+    document.getElementById("taskList").appendChild(li);
 
     document.getElementById("taskInput").value = "";
     document.getElementById('timeInput').value = "";
